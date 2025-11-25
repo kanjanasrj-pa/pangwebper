@@ -439,3 +439,20 @@ body{
   margin: 0 auto 24px;
 }
 
+/* แก้รูปใบประกาศให้ไม่บิด ไม่โดน grid บีบ */
+.portfolio-cert {
+  width: 100%;
+  height: auto !important;      /* บังคับไม่ให้บีบรูป */
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain !important;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+.portfolio-grid img {
+  width: 100%;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
